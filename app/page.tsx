@@ -112,7 +112,7 @@ export default function Home() {
         <div className="relative">
           <div className="rounded-3xl border border-neutral-300/60 bg-white/70 p-2 shadow-sm backdrop-blur">
             <img
-              src="/images/Hero.jpeg"
+              src="/public/images/Hero.jpeg"
               alt="Sristi Mitra portrait"
               className="h-auto w-full max-h-[520px] rounded-2xl object-cover"
               loading="eager"
