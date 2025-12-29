@@ -1,0 +1,27 @@
+/* app/globals.css — Tailwind v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Beige theme + small utilities */
+:root { --radius: 1rem; }
+html { scroll-behavior: smooth; }
+body {
+    background:#f5efe6;
+    color:#0a0a0a;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+::selection { background:#0a0a0a; color:#fff; }
+*:focus-visible { outline:2px solid #0a0a0a33; outline-offset:2px; }
+.container { @apply mx-auto px-4; }
+.fancy-underline { text-decoration: underline; text-decoration-thickness: 2px; }
+
+/* Animations used on the home page / arcade */
+@keyframes wiggle { 0%,100%{transform:rotate(0)}20%{transform:rotate(-10deg)}40%{transform:rotate(8deg)}60%{transform:rotate(-6deg)}80%{transform:rotate(4deg)}}
+.animate-wiggle { animation: wiggle 600ms ease-in-out both; }
+@keyframes pulseGlow { 0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.15)}}
+.animate-pulseGlow { animation: pulseGlow 2s ease-in-out infinite; }
+@keyframes sweep { 0%{transform:translateX(-100%)}100%{transform:translateX(300%)}}
+.animate-sweep { animation: sweep 1.5s cubic-bezier(.4,0,.2,1) infinite; }
+@keyframes pop { 0%{transform:scale(1)}60%{transform:scale(.98)}100%{transform:scale(1.02)}}
+.animate-pop { animation: pop 280ms ease-out; }

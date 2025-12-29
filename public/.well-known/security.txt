@@ -1,0 +1,5 @@
+Contact: mailto:you@example.com
+Policy: https://example.com/security
+Acknowledgments: https://example.com/hall-of-thanks
+Hiring: https://example.com/careers
+# Psst: flag{classy_not_flashy}
