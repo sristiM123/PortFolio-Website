@@ -111,15 +111,14 @@ export default function Home() {
         {/* Right image — CONSTRAINED */}
         <div className="relative">
           <div className="rounded-3xl border border-neutral-300/60 bg-white/70 p-2 shadow-sm backdrop-blur">
-            <Image
+            <img
               src="/images/Hero.jpeg"
               alt="Sristi Mitra portrait"
-              width={960}
-              height={720}
-              priority
               className="h-auto w-full max-h-[520px] rounded-2xl object-cover"
+              loading="eager"
             />
           </div>
+        </div>
           <p className="mt-2 text-center text-xs text-neutral-600">
             Security, but make it chic.
           </p>
