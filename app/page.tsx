@@ -31,14 +31,14 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-neutral-700">
-            I’m <b>Sristi Mitra</b> — part cyber defender, part digital detective!
-            Currently chasing my Master’s in Cyber Security, I’ve already cracked
-            codes in a Security Operations Center (SOC), mastered the network
-            universe with CCNA, and dived into some seriously cool cyber security
-            research. Whether it’s outsmarting hackers, decoding threats, or
-            experimenting with new defense tech, I live for that “gotcha!” moment
-            in cyber space. Next stop: becoming a Security Engineer who turns
-            cyber chaos into calm.
+            I’m <b>Sristi Mitra</b> — part cyber defender, part digital
+            detective! Currently chasing my Master’s in Cyber Security, I’ve
+            already cracked codes in a Security Operations Center (SOC),
+            mastered the network universe with CCNA, and dived into some
+            seriously cool cyber security research. Whether it’s outsmarting
+            hackers, decoding threats, or experimenting with new defense tech, I
+            live for that “gotcha!” moment in cyber space. Next stop: becoming a
+            Security Engineer who turns cyber chaos into calm.
             <br />
             <span className="mt-1 inline-block text-neutral-700">
               <span className="mr-1">🔒</span>
@@ -118,14 +118,11 @@ export default function Home() {
               loading="eager"
             />
           </div>
-        </div>
           <p className="mt-2 text-center text-xs text-neutral-600">
             Security, but make it chic.
           </p>
         </div>
       </section>
-
-      {/* ✅ Removed: <Arcade /> */}
     </div>
   );
 }
